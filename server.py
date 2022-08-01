@@ -9,11 +9,11 @@ app = Flask(__name__)
 def homepage():
     return render_template("base.html")
 
-@app.route("/add-recipe", methods=["POST"])
+@app.route("/clock", methods=["POST"])
 def add():
     return
 
-@app.route("/search-for-recipe", methods=["POST"])
+@app.route("/something", methods=["POST"])
 def search():
     return 
 
